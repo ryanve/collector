@@ -1,0 +1,2 @@
+# collector
+Jekyll collection demo
