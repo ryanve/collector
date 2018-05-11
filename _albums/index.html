@@ -2,6 +2,8 @@
 title: Albums
 ---
 
+<ul>
 {% for item in site.albums %}
-  - [{{ item.title }}]({{ item.url }})
+  <li><a href="{{ item.url }}">{{ item.title }}</a>
 {% endfor %}
+</ul>
