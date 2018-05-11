@@ -1,6 +1,9 @@
 markdown: kramdown
 defaults:
-  layout: default
+  -
+    scope: "" # anywhere
+    values:
+      layout: default
 collections:
   albums:
     output: true
