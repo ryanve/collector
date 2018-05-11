@@ -1,0 +1,9 @@
+---
+title: Albums
+---
+
+<ul>
+{% for albums in site.albums %}
+  <li><a href="{{ album.url }}">{{ album.title }}</a>
+{% endfor %}
+</ul>
