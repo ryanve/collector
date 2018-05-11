@@ -1,4 +1,6 @@
 markdown: kramdown
+defaults:
+  layout: default
 collections:
   albums:
     output: true
