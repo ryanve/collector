@@ -9,4 +9,3 @@ defaults:
 collections:
   albums:
     output: true
-    permalink: /:collection/:slug/
